@@ -38,6 +38,9 @@
         "onCommand:pythonautovenv.uninstallVenv",
         "onLanguage:python"
     ],
+    "extensionDependencies": [
+        "ms-python.python"
+    ],
     "main": "./dist/extension.js",
     "contributes": {
         "commands": [
